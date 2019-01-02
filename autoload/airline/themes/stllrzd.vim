@@ -1,7 +1,7 @@
 let g:airline#themes#stllrzd#palette = {}
 
 let s:back = [ "#1c1e29", 234 ]
-let s:bblk = [ "#2e353b", 236 ]
+let s:bblk = [ "#424c55", 239 ]
 let s:fore = [ "#bead9d", 145 ]
 let s:red_ = [ "#c66f6b", 167 ]
 let s:grn_ = [ "#58955d", 65 ]

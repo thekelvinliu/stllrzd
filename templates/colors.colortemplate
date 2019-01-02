@@ -9,8 +9,8 @@ color: back #1c1e29 ~
 color: fore #bead9d ~
 
 # black
-color: blk_ #110b11 ~
-color: bblk #2e353b ~
+color: blk_ #040f16 ~
+color: bblk #424c55 ~
 
 # red
 color: red_ #c66f6b ~
@@ -37,5 +37,5 @@ color: cyn_ #009ba2 ~
 color: bcyn #00a7af ~
 
 # white
-color: wht_ #818187 ~
-color: bwht #cdcecd ~
+color: wht_ #989c94 ~
+color: bwht #bcc3b8 ~
