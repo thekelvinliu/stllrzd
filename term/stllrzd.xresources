@@ -4,8 +4,8 @@
 *.cursorColor:  #bead9d
 
 ! black
-*.color0:       #080d15
-*.color8:       #0d0815
+*.color0:       #110b11
+*.color8:       #2e353b
 
 ! red
 *.color1:       #c66f6b
@@ -16,7 +16,7 @@
 *.color10:      #60a265
 
 ! yellow
-*.color3:       #9e7b08
+*.color3:       #ab8509
 *.color11:      #b88f0a
 
 ! blue
@@ -24,13 +24,13 @@
 *.color12:      #73aade
 
 ! magenta
-*.color5:       #b06d8f
+*.color5:       #bd7599
 *.color13:      #cd7fa7
 
 ! cyan
-*.color6:       #008f95
+*.color6:       #009ba2
 *.color14:      #00a7af
 
 ! white
-*.color7:       #dbc7b5
-*.color15:      #bead9d
+*.color7:       #818187
+*.color15:      #cdcecd

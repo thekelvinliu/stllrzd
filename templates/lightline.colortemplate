@@ -1,0 +1,41 @@
+# vim: set ft=colortemplate:
+
+auxfile autoload/lightline/colorscheme/stllrzd.vim
+let s:back = [ "@guiback", @termback ]
+let s:bblk = [ "@guibblk", @termbblk ]
+let s:fore = [ "@guifore", @termfore ]
+let s:red_ = [ "@guired_", @termred_ ]
+let s:mgt_ = [ "@guimgt_", @termmgt_ ]
+let s:grn_ = [ "@guigrn_", @termgrn_ ]
+let s:blu_ = [ "@guiblu_", @termblu_ ]
+
+let s:p = { "normal" : {} , "inactive": {} , "insert"  : {} ,
+          \ "replace": {} , "visual"  : {} , "tabline" : {} }
+
+let s:p.normal.left     = [[ s:back, s:fore ], [ s:fore, s:bblk ]]
+let s:p.normal.middle   = [[ s:fore, s:bblk ]]
+let s:p.normal.right    = [[ s:back, s:fore ], [ s:back, s:fore ]]
+
+let s:p.inactive.left   = copy(s:p.normal.middle)
+let s:p.inactive.middle = copy(s:p.normal.middle)
+let s:p.inactive.right  = copy(s:p.normal.middle)
+
+let s:p.insert.left     = [[ s:back, s:grn_ ]]
+let s:p.insert.right    = [[ s:back, s:grn_ ], [ s:back, s:grn_ ]]
+
+let s:p.visual.left     = [[ s:back, s:blu_ ]]
+let s:p.visual.right    = [[ s:back, s:blu_ ], [ s:back, s:blu_ ]]
+
+let s:p.replace.left    = [[ s:back, s:red_ ]]
+let s:p.replace.right   = [[ s:back, s:red_ ], [ s:back, s:red_ ]]
+
+let s:p.tabline.left    = copy(s:p.normal.middle)
+let s:p.tabline.tabsel  = [[ s:back, s:grn_ ]]
+let s:p.tabline.right   = copy(s:p.normal.middle)
+
+let s:p.normal.error    = [[ s:red_, s:back ]]
+let s:p.normal.warning  = [[ s:mgt_, s:back ]]
+
+let g:lightline#colorscheme#stllrzd#palette =
+  \ lightline#colorscheme#flatten(s:p)
+endauxfile

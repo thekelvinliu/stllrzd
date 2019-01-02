@@ -1,3 +1,5 @@
+# vim: set ft=colortemplate:
+
 # regular text
 Bold               none   none   bold
 Conceal            none   none

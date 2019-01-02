@@ -1,0 +1,41 @@
+# vim: set ft=colortemplate:
+
+background: dark
+
+# background
+color: back #1c1e29 ~
+
+# foreground
+color: fore #bead9d ~
+
+# black
+color: blk_ #110b11 ~
+color: bblk #2e353b ~
+
+# red
+color: red_ #c66f6b ~
+color: bred #e07d79 ~
+
+# green
+color: grn_ #58955d ~
+color: bgrn #60a265 ~
+
+# yellow
+color: ylo_ #ab8509 ~
+color: bylo #b88f0a ~
+
+# blue
+color: blu_ #6696c4 ~
+color: bblu #73aade ~
+
+# magenta
+color: mgt_ #bd7599 ~
+color: bmgt #cd7fa7 ~
+
+# cyan
+color: cyn_ #009ba2 ~
+color: bcyn #00a7af ~
+
+# white
+color: wht_ #818187 ~
+color: bwht #cdcecd ~

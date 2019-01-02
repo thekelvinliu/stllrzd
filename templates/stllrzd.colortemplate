@@ -1,114 +1,17 @@
 # vim: set ft=colortemplate:
 
 # based on nightsense/stellarized
-Full name: stllrzd
-Short name: stllrzd
-Author: thekelvinliu
-Maintainer: thekelvinliu
-License: MIT
+full name: stllrzd
+short name: stllrzd
+author: thekelvinliu
+maintainer: thekelvinliu
+license: mit
+terminal colors: 256
 
-Background: dark
+# main things
+include: colors.colortemplate
+include: highlights.colortemplate
 
-# background
-Color: back #1e1e29 ~
-
-# foreground
-Color: fore #bead9d ~
-
-# black
-Color: blk_ #080d15 ~
-Color: bblk #0d0815 ~
-
-# red
-Color: red_ #c66f6b ~
-Color: bred #e07d79 ~
-
-# green
-Color: grn_ #58955d ~
-Color: bgrn #60a265 ~
-
-# yellow
-Color: ylo_ #9e7b08 ~
-Color: bylo #b88f0a ~
-
-# blue
-Color: blu_ #6696c4 ~
-Color: bblu #73aade ~
-
-# magenta
-Color: mgt_ #b06d8f ~
-Color: bmgt #cd7fa7 ~
-
-# cyan
-Color: cyn_ #008f95 ~
-Color: bcyn #00a7af ~
-
-# white
-Color: wht_ #dbc7b5 ~
-Color: bwht #bead9d ~
-
-Normal fore back
-Black blk_ bblk
-Red red_ bred
-Green grn_ bgrn
-Yellow ylo_ bylo
-Blue blu_ bblu
-Magenta mgt_ bmgt
-Cyan cyn_ bcyn
-White wht_ bwht
-
-# # bg/black
-# Color:      gry0 #222532 ~
-#
-# # bright black
-# Color:      gry1 #2d3243 ~
-#
-# # ? (mid tan)
-# Color:      gry2 #9d8875 ~
-#
-# # fb/white
-# Color:      gry3 #bead9d ~
-#
-# # ? (bright white)
-# Color:      gryc #ecdac9 ~
-#
-# # ? (gold)
-# Color:      srch #8d6e19 ~
-#
-# # ? (bright white)
-# Color:      grys #ecdac9 ~
-#
-# # ? (slate)
-# Color:      gryp #4a5067 ~
-#
-# # bright red
-# Color:      sprd #ff707e ~
-#
-# # bright blue
-# Color:      spbl #00b4ff ~
-#
-# # bright cyan
-# Color:      spcy #00c8d9 ~
-#
-# # bright magenta
-# Color:      spmg #ee81f9 ~
-#
-# # red
-# Color:      red_ #ca7375 ~
-#
-# # yellow
-# Color:      gold #a58949 ~
-#
-# # green
-# Color:      gren #5c9a61 ~
-#
-# # cyan
-# Color:      cyan #009ba2 ~
-#
-# # blue
-# Color:      blue #578fcc ~
-#
-# # magenta
-# Color:      mgnt #b178b5 ~
-#
-# Include:    _common.colortemplate
+# others things
+include: airline.colortemplate
+include: lightline.colortemplate

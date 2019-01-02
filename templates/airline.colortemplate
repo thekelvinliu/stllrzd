@@ -1,0 +1,41 @@
+# vim: set ft=colortemplate:
+
+auxfile autoload/airline/themes/stllrzd.vim
+let g:airline#themes#stllrzd#palette = {}
+
+let s:back = [ "@guiback", @termback ]
+let s:bblk = [ "@guibblk", @termbblk ]
+let s:fore = [ "@guifore", @termfore ]
+let s:red_ = [ "@guired_", @termred_ ]
+let s:grn_ = [ "@guigrn_", @termgrn_ ]
+let s:blu_ = [ "@guiblu_", @termblu_ ]
+
+let s:nrm1 = [ s:back[0] , s:fore[0] , s:back[1] , s:fore[1] ]
+let s:nrm2 = [ s:fore[0] , s:bblk[0] , s:fore[1] , s:bblk[1] ]
+let s:insr = [ s:back[0] , s:grn_[0] , s:back[1] , s:grn_[1] ]
+let s:visl = [ s:back[0] , s:blu_[0] , s:back[1] , s:blu_[1] ]
+let s:rplc = [ s:back[0] , s:red_[0] , s:back[1] , s:red_[1] ]
+let s:inac = [ s:fore[0] , s:bblk[0] , s:fore[1] , s:bblk[1] ]
+
+let g:airline#themes#stllrzd#palette.normal =
+  \ airline#themes#generate_color_map( s:nrm1 , s:nrm2 , s:nrm2 )
+
+let g:airline#themes#stllrzd#palette.insert =
+  \ airline#themes#generate_color_map( s:insr , s:nrm2 , s:nrm2 )
+
+let g:airline#themes#stllrzd#palette.visual =
+  \ airline#themes#generate_color_map( s:visl , s:nrm2 , s:nrm2 )
+
+let g:airline#themes#stllrzd#palette.replace =
+  \ airline#themes#generate_color_map( s:rplc , s:nrm2 , s:nrm2 )
+
+let g:airline#themes#stllrzd#palette.inactive =
+  \ airline#themes#generate_color_map( s:inac , s:inac , s:inac )
+
+if !get(g:, "loaded_ctrlp", 0)
+  finish
+endif
+
+let g:airline#themes#stllrzd#palette.ctrlp =
+  \ airline#extensions#ctrlp#generate_color_map( s:nrm2 , s:nrm1 , s:nrm2 )
+endauxfile

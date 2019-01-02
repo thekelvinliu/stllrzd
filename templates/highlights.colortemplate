@@ -1,0 +1,136 @@
+# vim: set ft=colortemplate:
+
+# regular text
+Bold none none bold
+Conceal none none
+Directory -> Bold
+EndOfBuffer none none
+Ignore none none
+Italic none none italic
+ModeMsg none none
+MoreMsg none none
+Question none none
+Normal fore back
+Terminal none none
+Title -> Bold
+Underlined none none underline
+
+# whitespce characters
+NonText bblk back
+Whitespace bblk back
+
+# soft text
+Comment wht_ none italic
+CursorLineNr none none
+LineNr bblk none
+
+# reverse regular text
+FoldColumn fore none
+PmenuSel fore back reverse
+SignColumn fore none
+StatusLine fore back reverse
+StatusLineTerm fore back reverse
+TabLineSel fore back reverse
+
+# reverse soft text
+VisualNOS wht_ back reverse
+
+# reverse hard text
+Cursor bwht back reverse
+IncSearch bylo back reverse
+
+# highlight
+ColorColumn none bblk
+CursorColumn none bblk
+CursorLine none bblk
+DiffChange none bblk
+Folded none bblk
+MatchParen bgrn bblk underline
+Pmenu fore bblk
+QuickFixLine none bblk
+StatusLineNC fore bblk
+StatusLineTermNC fore bblk
+TabLine fore bblk
+ToolbarButton fore bblk bold
+WildMenu fore bblk
+
+# solid lines
+PmenuSbar blk_ blk_
+PmenuThumb fore fore
+TabLineFill bblk bblk
+ToolbarLine bblk bblk
+VertSplit blk_ blk_
+
+# spellcheck undercurls
+SpellBad none none g=undercurl s=bred t=underline
+SpellCap none none g=undercurl s=bblu t=underline
+SpellLocal none none g=undercurl s=bcyn t=underline
+SpellRare none none g=undercurl s=bmgt t=underline
+
+# yellow types
+StorageClass ylo_ none
+Structure ylo_ none
+Type ylo_ none
+Typedef ylo_ none
+
+# reverse magenta warnings
+TooLong mgt_ back reverse
+WarningMsg mgt_ back reverse
+
+# blue names
+Function blu_ none
+Identifier blu_ none
+
+# reverse red errors and diff removals
+DiffDelete red_ back reverse
+DiffRemoved red_ back reverse
+Error red_ back reverse
+ErrorMsg red_ back reverse
+
+# red specials
+Debug red_ none
+Delimiter red_ none
+Special red_ none
+SpecialChar red_ none
+SpecialComment red_ none
+SpecialKey red_ none
+Tag red_ none
+
+# reverse yellow search matches and diff changes
+DiffChanged ylo_ back reverse
+DiffText ylo_ back reverse
+Search ylo_ bwht reverse
+
+# green statements
+Conditional grn_ none
+Exception grn_ none
+Keyword grn_ none
+Label grn_ none
+Operator grn_ none
+Repeat grn_ none
+Statement grn_ none
+
+# reverse green diff additions
+DiffAdd grn_ back reverse
+DiffAdded grn_ back reverse
+
+# magenta meta-statements
+Define mgt_ none
+Include mgt_ none
+Macro mgt_ none
+PreCondit mgt_ none
+PreProc mgt_ none
+
+# reverse cyan todos
+Todo cyn_ back reverse
+
+# cyan constants
+Boolean cyn_ none
+Character cyn_ none
+Constant cyn_ none
+Float cyn_ none
+Number cyn_ none
+String cyn_ none
+
+# reverse blue visual selections
+Visual blu_ back reverse
