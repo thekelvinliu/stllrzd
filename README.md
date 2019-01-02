@@ -1,6 +1,8 @@
 # stllrzd
 a dark colorscheme for vim and terminals
 
+![ansi color table](stllrzd.png "ansi color table")
+
 ## install
 any package manager should do.
 i use [vim-plug](https://github.com/junegunn/vim-plug).
