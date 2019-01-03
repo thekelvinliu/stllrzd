@@ -12,6 +12,26 @@ terminal colors: 256
 include: colors.colortemplate
 include: highlights.colortemplate
 
-# others things
+# vim terminal colors
+verbatim
+let g:terminal_color_0 = '@guiblk_'
+let g:terminal_color_1 = '@guired_'
+let g:terminal_color_2 = '@guigrn_'
+let g:terminal_color_3 = '@guiylo_'
+let g:terminal_color_4 = '@guiblu_'
+let g:terminal_color_5 = '@guimgt_'
+let g:terminal_color_6 = '@guicyn_'
+let g:terminal_color_7 = '@guiwht_'
+let g:terminal_color_8 = '@guibblk'
+let g:terminal_color_9 = '@guibred'
+let g:terminal_color_10 = '@guibgrn'
+let g:terminal_color_11 = '@guibylo'
+let g:terminal_color_12 = '@guibblu'
+let g:terminal_color_13 = '@guibmgt'
+let g:terminal_color_14 = '@guibcyn'
+let g:terminal_color_15 = '@guibwht'
+endverbatim
+
+# auxfiles
 include: airline.colortemplate
 include: lightline.colortemplate

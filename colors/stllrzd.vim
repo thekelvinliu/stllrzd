@@ -2,7 +2,7 @@
 " Author:       thekelvinliu
 " Maintainer:   thekelvinliu
 " License:      mit
-" Last Updated: Tue Jan  1 22:45:22 2019
+" Last Updated: Wed Jan  2 21:28:40 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 256)
@@ -112,6 +112,22 @@ hi Float ctermfg=37 ctermbg=NONE guifg=#009ba2 guibg=NONE guisp=NONE cterm=NONE 
 hi Number ctermfg=37 ctermbg=NONE guifg=#009ba2 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi String ctermfg=37 ctermbg=NONE guifg=#009ba2 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Visual ctermfg=67 ctermbg=234 guifg=#6696c4 guibg=#1c1e29 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+let g:terminal_color_0 = '#040f16'
+let g:terminal_color_1 = '#c66f6b'
+let g:terminal_color_2 = '#58955d'
+let g:terminal_color_3 = '#ab8509'
+let g:terminal_color_4 = '#6696c4'
+let g:terminal_color_5 = '#bd7599'
+let g:terminal_color_6 = '#009ba2'
+let g:terminal_color_7 = '#989c94'
+let g:terminal_color_8 = '#424c55'
+let g:terminal_color_9 = '#e07d79'
+let g:terminal_color_10 = '#60a265'
+let g:terminal_color_11 = '#b88f0a'
+let g:terminal_color_12 = '#73aade'
+let g:terminal_color_13 = '#cd7fa7'
+let g:terminal_color_14 = '#00a7af'
+let g:terminal_color_15 = '#bcc3b8'
 finish
 
 " background: dark
